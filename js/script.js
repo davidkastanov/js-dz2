@@ -34,7 +34,7 @@ console.log(roundedDown);
 
 //Створити змінну const floatString = "45.67"  для зберігання рядка, який містить числа з плаваючою комою. Використати метод parseFloat() для перетворення рядка у десяткове число. Результат зберегти в змінній parsedFloat та вивести результат в консоль.
 const floatString = "45.67"
-const parsedFloat = Namber.parseFloat("45.67")
+const parsedFloat = Number.parseFloat("45.67")
 console.log(parsedFloat);
 
 //Створити змінну const intString = "123" для зберігання рядка, який містить ціле число. Використати метод parseInt() для перетворення рядка у ціле число. Результат зберегти в змінній parsedIntта вивести результат в консоль.
@@ -51,9 +51,9 @@ console.log(sqrtNumber);
 
 const integer = 42;
 const stringNumber = "256";
-const convertedInt = parseInt(integer);
+const convertedInt = Number.parseInt(integer);
 console.log(convertedInt);
-const convertedString = toString(stringNumber);
+const convertedString = integer.toString();
 console.log(convertedString);
 
 
